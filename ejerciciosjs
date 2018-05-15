@@ -1,0 +1,99 @@
+ecuacion de primer grado esta definida
+ax+by=c
+dx+ey=f
+
+formula para resolver 
+
+X= ce – bf /ae – bd 
+y= af – cd /ae – bd
+
+
+resolvamos 
+2x+y=6
+4x+3y=14
+
+variables 
+a=2
+b=1
+c=6
+d=4
+e=3
+f=14
+
+codigo js
+
+var a=2
+var b=1
+var c=6
+var d=4
+var e=3
+var f=14
+
+var divisor= ((a*e)-(b*d))
+var dividendox=((c*e)-(b*f))
+var dividendoy=((a*f)-(c*d))
+var x=dividendox/divisor
+var y=dividendoy/divisor
+----------------------------------------------------------------------------
+ALGORITMO #13
+ALGORITMO: Pago _ finalDESCRIPCCION: En una librería se venden artículos 
+con las siguientes condiciones:
+Sí el cliente compra producto 1=valor se le descuenta 30%
+Sí el cliente compra producto 2=valor se le descuenta 20%
+Sí el cliente compra producto 3=valor se le descuenta 10%
+
+declaracion variables
+
+var pruducto1=100
+var pruducto2=250
+var pruducto3=500
+
+var descuentop1=(pruducto1*0.10)
+var descuentop2=(pruducto2*0.20)
+var descuentop3=(pruducto3*0.30)
+
+var preciofinalp1=(pruducto1-descuentop1)
+var preciofinalp2=(pruducto2-descuentop2)
+var preciofinalp3=(pruducto3-descuentop3)
+-----------------------------------------------------------------------------
+ ALGORITMO #2
+ALGORTMO: Promedio finalDESCRIPCCION: Elaborar un algoritmo para calcular el
+ promediofinal de la materia de algoritmos. Dicha calificación se compone 
+delos siguientes porcentajes.
+55% -----del promedio final de sus calificaciones parciales (3)
+30% ----- de la calificación de promedio
+15% ----- de la calificación de un trabajo final
+
+declaracion variables
+var p1=5
+var p2=8
+var p3=10
+var examen=7
+var tf=9
+
+var promp=((p1+p2+p3)/3)*0.55
+var promex=examen*0.30
+var promtf=tf*0.15
+
+var promfinal=promex+promp+promtf
+-----------------------------------------------------------------------------
+ALGORITMO: PromedioDESCRIPCIÓN: Calcular la media (promedio) de 3 núme
+
+var numero1=10
+var numero2=20
+var numero3=30
+
+var prom=(numero1+numero2+numero3)/3
+----------------------------------------------------------------------------
+ ALGORITMO: EvaluaciónDESCRIPCCION: Elaborar un algoritmo que obtenga e 
+imprima elvalor de Y a partir de la ecuación.
+Y= 3*X^2+ 7X - 15
+
+1.Leer X
+2.Y= (3*X*X)+(7*x) -15
+3.Escribir 
+
+variables
+var x=15
+var y=(3*x*x)+(7*x)-15
+
